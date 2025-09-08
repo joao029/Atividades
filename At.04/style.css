@@ -37,7 +37,7 @@ main {
 .container-principal h1 {
   font-family: Montserrat, sans-serif;
   font-size: 3rem;
-  color: rgb(41, 55, 68);
+  color: rgb(70, 95, 119);
   font-weight: 700;
 }
 
@@ -91,8 +91,14 @@ main {
 }
 
 .título {
+  font-size: 1.5rem;
   font-weight: 700;
   margin-top: 0;
+}
+
+.preço {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
 }
 
 .botão1 {
@@ -102,8 +108,9 @@ main {
   margin-top: 0.5rem;
   background-color: rgb(212, 231, 248);
   color: rgb(104, 122, 172);
-  font-weight: 700;
-  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  cursor: pointer;
   
 }
 
