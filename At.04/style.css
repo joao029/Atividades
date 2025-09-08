@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.6rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(214, 225, 255);
+}
+
+.container-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 45rem;
+  height: auto;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.container-principal h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  color: rgb(41, 55, 68);
+  font-weight: 700;
+}
+
+.container-principal, .content {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(104, 122, 172);
+  margin-top: 1.8rem;
+}
+
+.banner {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 5rem;
+}
+
+
+.container-plano {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 3rem;
+  padding: 1.5rem 2rem 2rem 2rem;
+  background-color: rgb(246, 250, 253);
+  border-radius: 13px;
+}
+
+.container-plano img {
+  width: 100%;
+  margin-top: 0.2rem;
+  padding: 0;
+}
+
+.plano {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.título {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.botão1 {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  background-color: rgb(212, 231, 248);
+  color: rgb(104, 122, 172);
+  font-weight: 700;
+  font-size: 1.2rem;
+  
+}
+
+.container-botões {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.botão2 {
+  width: 100%;
+  padding: 1.2rem 10rem;
+  background-color: rgb(63, 49, 255);
+  border: none;
+  border-radius: 10px;
+  margin-top: 3rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+.botão3 {
+  width: 100%;
+  text-decoration: none;
+  background-color: rgb(246, 250, 253);
+  border: none;
+  border-radius: 10px;
+  padding: 1.2rem 12.5rem;
+  margin-top: 1.8rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(63, 49, 255);
+}
